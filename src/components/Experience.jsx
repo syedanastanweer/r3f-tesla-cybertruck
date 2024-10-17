@@ -78,7 +78,7 @@ export const Experience = () => {
 
   return (
     <>
-      <OrbitControls minPolarAngle={0} maxPolarAngle={Math.PI / 2} />
+      <OrbitControls minPolarAngle={0} maxPolarAngle={Math.PI / 2} minDistance={5} maxDistance={15} />
 
       <group ref={car}>
         <Cybertruck />
